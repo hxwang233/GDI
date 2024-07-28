@@ -1,0 +1,19 @@
+data_path:
+  dataset_path: data/dataset20/traffic_simple10-100.npy
+  label_path: data/dataset20/label_simple10-100.npy
+  result_path: ./dataset20-ablation-lstm-result.csv
+
+experiment:
+  ratio_list: [0.7, 0.6, 0.5, 0.4, 0.3, 0.2]
+  repeat_time: 5
+  train_edge_ratio: 0.05
+  gpu: 0
+  batch_size: 256
+  epoch: 500
+  lr: 0.005
+
+model:
+  n_factor: 64
+  n_layer: 2
+  alpha: 0.6
+

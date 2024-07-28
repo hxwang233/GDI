@@ -1,0 +1,6 @@
+# ignore ide config, dataset, and cache
+.idea/
+.vscode/
+.data/
+**/__pycache__
+best_network.pth
